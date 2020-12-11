@@ -1,2 +1,2 @@
 # 全局driver路径
-DRIVER_PATH = 'E:\\好用的软件\\chromedriver\\chromedriver(2).exe'
+DRIVER_PATH = 'D:\\python\\爬虫demo\\musicDownload\\core\\chromedriver.exe'
