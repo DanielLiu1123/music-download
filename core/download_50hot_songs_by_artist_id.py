@@ -42,7 +42,7 @@ def get_hot_songs_by_singer_id(singer_id):
     # songs.sort(key=lambda k: k['id'], reverse=False)
     for song in songs:
         # 每次爬取间隔时间
-        sleep(2)
+        sleep(3)
         print('---------------------------------------------------')
         print('正在下载:: %s' % (song['name']))
         flag = download_song_by_id(song['id'])
